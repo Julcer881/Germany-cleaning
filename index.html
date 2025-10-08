@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Germany´s Cleaning Services Llc</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header>
+  <div class="container">
+    
+    <img src="image/Germany1.jpg">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="mision.html">Misión</a></li>
+        <li><a href="vision.html">Visión</a></li>
+        <li><a href="service.html">Servicios</a></li>
+        <li><a href="values.html">Core Values</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<<main>
+  <!-- Carrusel -->
+  <section class="carrusel">
+    <div class="slides">
+      <img src="image/limpieza1.jpg" class="slide active" alt="Limpieza residencial">
+      <img src="image/limpieza2.jpg" class="slide" alt="Limpieza de oficinas">
+      <img src="image/limpieza3.jpg" class="slide" alt="Limpieza industrial">
+    </div> <!-- Cerramos correctamente el div -->
+
+    <!-- Botones de navegación -->
+    <button class="btn prev" onclick="cambiarSlide(-1)">&#10094;</button>
+    <button class="btn next" onclick="cambiarSlide(1)">&#10095;</button>
+
+    <!-- Indicadores (puntitos) -->
+    <div class="indicadores">
+      <span class="dot active" onclick="irASlide(0)"></span>
+      <span class="dot" onclick="irASlide(1)"></span>
+      <span class="dot" onclick="irASlide(2)"></span>
+    </div>
+  </section>
+
+  <!-- Sección de texto centrado -->
+  <section class="texto-centrado">
+    <h2>Inicio</h2>
+    <p>Bienvenido a Germany´s´Cleaning Service Llc,
+Ofrecemos servicios de limpieza profesional para hogares, oficinas e industrias, combinando eficiencia, seguridad y atención al detalle. Nuestro equipo altamente capacitado utiliza productos de alta calidad y técnicas modernas para garantizar que cada espacio quede impecable y reluciente.
+
+Ya sea que necesites limpieza residencial, comercial o especializada, nos adaptamos a tus necesidades con horarios flexibles, precios competitivos y un servicio confiable. Porque en [Nombre de tu Empresa], tu satisfacción es nuestra prioridad..</p>
+  </section>
+</main>
+
+<script src="js/scrip.js"></script>
+  <footer>
+    <p>© 2025 Mi Página Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
